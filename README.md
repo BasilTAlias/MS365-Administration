@@ -22,32 +22,32 @@ Connect-AzureAD
 
 
 # Define user details
-$users = @(
-    @{
-        UserPrincipalName = "ProjectUser1@BTech77.onmicrosoft.com"
-        DisplayName = "ProjectUser One"
-        Password = "password"
-        GivenName = "ProjectUser"
-        Surname = "One"
-        MailNickname = "ProjectUser1"
-        AccountEnabled = $true
-    },
-    @{
-        UserPrincipalName = "ProjectU@BTech77.onmicrosoft.com"
-        DisplayName = "ProjectUser Two"
-        Password = "password"
-        GivenName = "ProjectUser"
-        Surname = "Two"
-        MailNickname = "ProjectUser2"
-        AccountEnabled = $true
-    }
-)
+    $users = @(
+        @{
+            UserPrincipalName = "ProjectUser1@BTech77.onmicrosoft.com"
+            DisplayName = "ProjectUser One"
+            Password = "password"
+            GivenName = "ProjectUser"
+            Surname = "One"
+            MailNickname = "ProjectUser1"
+            AccountEnabled = $true
+        },
+        @{
+            UserPrincipalName = "ProjectU@BTech77.onmicrosoft.com"
+            DisplayName = "ProjectUser Two"
+            Password = "password"
+            GivenName = "ProjectUser"
+            Surname = "Two"
+            MailNickname = "ProjectUser2"
+            AccountEnabled = $true
+        }
+    )
 
 # Create users
-foreach ($user in $users) {
-    $passwordProfile = New-Object -TypeName Microsoft.Open.AzureAD.Model.PasswordProfile
-    $passwordProfile.Password = $user.Password
-    #$passwordProfile.ForceChangePasswordNextSignIn = $false
+    foreach ($user in $users) {
+        $passwordProfile = New-Object -TypeName Microsoft.Open.AzureAD.Model.PasswordProfile
+        $passwordProfile.Password = $user.Password
+        #$passwordProfile.ForceChangePasswordNextSignIn = $false
 
     New-AzureADUser -UserPrincipalName $user.UserPrincipalName `
                    -DisplayName $user.DisplayName `
