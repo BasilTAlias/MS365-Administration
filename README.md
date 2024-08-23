@@ -12,11 +12,11 @@ For a detailed report on the project, refer to the Creating User with Powershell
 
 #Installing Modules
 
-Install-Module -Name AzureAD
-Install-Module Microsoft. Graph
+    Install-Module -Name AzureAD
+    Install-Module Microsoft. Graph
 
 #Connecting to AzureAD
-Connect-AzureAD
+    Connect-AzureAD
 
 ###User creation Script####
 
