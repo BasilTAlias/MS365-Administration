@@ -10,13 +10,13 @@ For a detailed report on the project, refer to the Creating User with Powershell
 
 ## Project Files
 
-#Installing Modules
+## Installing Modules
 
     Install-Module -Name AzureAD
     Install-Module Microsoft. Graph
 
     
-#Connecting to AzureAD
+## Connecting to AzureAD
 
     connect-AzureAD
 
