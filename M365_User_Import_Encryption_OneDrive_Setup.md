@@ -1,4 +1,4 @@
-# Bulk Import Users:
+# Import Bulk Users
 
 - Use the Microsoft 365 admin center to bulk import 10 users from a CSV file.
 - Assign appropriate licenses (Microsoft 365 E3) to the imported users.
