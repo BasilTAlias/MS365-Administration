@@ -3,6 +3,7 @@
 - Use the Microsoft 365 admin center to bulk import 10 users from a CSV file.
 - Assign appropriate licenses (Microsoft 365 E3) to the imported users.
 
+ $~$
  
 ![Alt text of the image](https://github.com/BasilTAlias/MS365-Projects/blob/main/Images/M365_User_Import_Encryption_OneDrive_Setup/1.png)
 
@@ -64,8 +65,8 @@ $~$
 
 # Set Up Data Encryption
 
-•	Configure Microsoft 365 Message Encryption.
-•	Ensure that emails from inside the organization are automatically encrypted. (Hints: Navigate to Exchange admin center, and then Rules)
+- Configure Microsoft 365 Message Encryption.
+- Ensure that emails from inside the organization are automatically encrypted. (Hints: Navigate to Exchange admin center, and then Rules)
 
 $~$
 
@@ -93,7 +94,8 @@ successfully created and enabled the rule, Rule details
 
 $~$
 
-Verifying Encryption
+# Verifying Encryption
+
 $~$
 
 ![Alt text of the image](https://github.com/BasilTAlias/MS365-Projects/blob/main/Images/M365_User_Import_Encryption_OneDrive_Setup/15.png) 
