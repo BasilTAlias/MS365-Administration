@@ -1,1 +1,33 @@
+# Working with PowerShell
+	
+- Install the PowerShell module and connect to M365
+- Create two new users
+- Assign License to users with PowerShell or Admin Center
+
+The task  focused on leveraging PowerShell to enhance Microsoft 365 administration. This included installing the necessary PowerShell module, establishing a connection to Microsoft 365, creating two new user accounts, and assigning appropriate licenses. This approach streamlined and automated user management tasks, improving efficiency and consistency in the administration process.
+
+ 
+Installing modules in PowerShell
+
+ 
+successfully connected Azure AD 
+ 
+successfully created 2 new users using PowerShell
+
+
+ 
+verifying new users through Admin center
+
+ 
+Assigning License to ProjectUser one
+
+
+ 
+Assigning License to ProjectUser Two
+
+
+ 
+Successfully Assigned License to both newly created user’s
+
+
 
